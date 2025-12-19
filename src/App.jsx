@@ -6,7 +6,7 @@ import Services from "./pages/Services.jsx"
 import Products from "./pages/Products.jsx"
 import Contact from "./pages/Contact.jsx"
 import Login from "./components/loginForm.jsx"
-import Admin from "./pages/admin.jsx"
+import Admin from "./pages/Admin.jsx"
 import {Routes, Route} from "react-router-dom"
 
 function App() {
