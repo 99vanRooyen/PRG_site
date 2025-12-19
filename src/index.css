@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+/* Scroll reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 700ms ease, transform 700ms ease;
+  will-change: opacity, transform;
+}
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Teardrop badge used above service cards */
+.teardrop {
+  position: absolute;
+  top: -56px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 84px;
+  height: 84px;
+  background: #ffffff;
+  border-radius: 0 52% 52% 52%;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.teardrop::before { content: none; }
+.teardrop-icon { transform: rotate(-45deg); color: #545f2c; }
+
+/* Mobile adjustments to prevent overlap and keep sizing balanced */
+@media (max-width: 640px) {
+  .teardrop {
+    top: -48px;
+    width: 76px;
+    height: 76px;
+  }
+}
