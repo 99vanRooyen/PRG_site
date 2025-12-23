@@ -3,15 +3,15 @@ function Sublimation_Printing() {
     // Variables
     // Array or list to hold the different logos stored as svg files
     const categories = [
-        <img src='src/assets/SP1.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/SP2.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/SP3.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/SP4.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/SP5.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/SP6.png' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/SP7.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/SP8.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/SP9.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/SP1.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/SP2.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/SP3.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/SP4.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/SP5.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/SP6.png' className="inline w-24 md:w-40"/>,
+        <img src='/assets/SP7.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/SP8.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/SP9.jpg' className="inline w-24 md:w-40"/>,
     ]
 
     // Populating the array with the images of the logos

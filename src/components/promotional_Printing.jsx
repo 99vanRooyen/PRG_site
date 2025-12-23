@@ -7,9 +7,9 @@ function Promotional_Printing() {
         <img src='/assets/PP2.png' className="inline w-24 md:w-40"/>,
         <img src='/assets/PP3.jpg' className="inline w-24 md:w-40"/>,
         <img src='/assets/PP4.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/PP5.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/PP6.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/PP7.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/PP5.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/PP6.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/PP7.jpg' className="inline w-24 md:w-40"/>,
     ]
 
     // Populating the array with the images of the logos

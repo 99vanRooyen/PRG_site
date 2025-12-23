@@ -6,12 +6,12 @@ function Large_Format_Printing() {
         <img src='/assets/LFP1.png' className="inline w-24 md:w-40"/>,
         <img src='/assets/LFP2.png' className="inline w-24 md:w-40"/>,
         <img src='/assets/LFP3.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/LFP4.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP4.jpg' className="inline w-24 md:w-40"/>,
         <img src='/assets/LFP5.png' className="inline w-24 md:w-40"/>,
         <img src='/assets/LFP6.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/LFP7.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/LFP8.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/LFP9.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP7.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP8.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP9.jpg' className="inline w-24 md:w-40"/>,
         <img src='/assets/LFP10.jpg' className="inline w-24 md:w-40"/>,
     ]
 

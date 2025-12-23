@@ -16,7 +16,7 @@ function Products() {
       title: "Banners",
       description:
         "Bold, high-quality visuals on a bigger scale. Perfect for outdoor and indoor promotional banners.",
-      image: "src/assets/LFP1.png",
+      image: "/assets/LFP1.png",
       features: ["PVC Banners", "Mesh Banners", "Outdoor Banners", "Indoor Banners"]
     },
     {
@@ -25,7 +25,7 @@ function Products() {
       title: "Posters",
       description:
         "High-impact posters for retail, events, campaigns and point-of-sale displays.",
-      image: "src/assets/LFP2.png",
+      image: "/assets/LFP2.png",
       features: ["Retail Posters", "Event Posters", "Point-of-Sale", "Campaign Signage"]
     },
     {
@@ -34,7 +34,7 @@ function Products() {
       title: "Billboards",
       description:
         "Super-sized advertising for maximum visibility on roadsides, sites and large outdoor spaces.",
-      image: "src/assets/LFP3.jpg",
+      image: "/assets/LFP3.jpg",
       features: ["Roadside Boards", "Construction Boards", "Large Outdoor Panels", "Building Wraps"]
     },
     {
@@ -43,7 +43,7 @@ function Products() {
       title: "Vehicle Wraps",
       description:
         "Turn your vehicle into a mobile billboard with professional full and partial wraps.",
-      image: "src/assets/LFP5.png",
+      image: "/assets/LFP5.png",
       features: ["Full Wraps", "Partial Wraps", "Fleet Branding", "Vehicle Decals"]
     },
 
@@ -54,7 +54,7 @@ function Products() {
       title: "T-Shirts",
       description:
         "Vibrant, durable prints that become part of the fabric – perfect for custom apparel.",
-      image: "src/assets/SP1.jpg",
+      image: "/assets/SP1.jpg",
       features: ["Corporate Wear", "Sportswear", "Event Shirts", "Branded Uniforms"]
     },
     {
@@ -63,7 +63,7 @@ function Products() {
       title: "Mugs",
       description:
         "Full-colour custom mugs that keep your brand in customers' hands every day.",
-      image: "src/assets/SP2.jpg",
+      image: "/assets/SP2.jpg",
       features: ["Photo Mugs", "Corporate Gifts", "Promotional Giveaways", "Personalised Sets"]
     },
     {
@@ -72,7 +72,7 @@ function Products() {
       title: "Phone Cases",
       description:
         "Protective phone covers with edge-to-edge sublimated graphics.",
-      image: "src/assets/SP3.jpg",
+      image: "/assets/SP3.jpg",
       features: ["Full-Colour Prints", "Branded Cases", "Event Merch", "Custom Designs"]
     },
     {
@@ -81,7 +81,7 @@ function Products() {
       title: "Custom Items",
       description:
         "From cushions to mouse pads – customised sublimated products for any campaign.",
-      image: "src/assets/SP4.jpg",
+      image: "/assets/SP4.jpg",
       features: ["Mouse Pads", "Cushions", "Coasters", "Gift Sets"]
     },
 
@@ -92,7 +92,7 @@ function Products() {
       title: "Business Cards",
       description:
         "Premium business cards that make a strong first impression.",
-      image: "src/assets/PP1.jpg",
+      image: "/assets/PP1.jpg",
       features: ["Single & Double-Sided", "Matt & Gloss Finishes", "Spot UV", "Custom Shapes"]
     },
     {
@@ -101,7 +101,7 @@ function Products() {
       title: "Flyers",
       description:
         "Cost-effective flyers for handouts, inserts and large-volume campaigns.",
-      image: "src/assets/PP2.png",
+      image: "/assets/PP2.png",
       features: ["A5 / A6", "Full Colour", "Short-Run & Bulk", "Event Handouts"]
     },
     {
@@ -110,7 +110,7 @@ function Products() {
       title: "Brochures",
       description:
         "Multi-page brochures to showcase your products and services in detail.",
-      image: "src/assets/PP3.jpg",
+      image: "/assets/PP3.jpg",
       features: ["Bi-Fold & Tri-Fold", "Booklets", "Product Catalogues", "Company Profiles"]
     },
     {
@@ -119,7 +119,7 @@ function Products() {
       title: "Catalogues",
       description:
         "Branded catalogues that keep your full product range in one place.",
-      image: "src/assets/PP4.jpg",
+      image: "/assets/PP4.jpg",
       features: ["Seasonal Catalogues", "Price Lists", "Retail Lookbooks", "Product Guides"]
     },
 
@@ -130,7 +130,7 @@ function Products() {
       title: "Signage Solutions",
       description:
         "Professional signage for indoor and outdoor use. Weather-resistant and long-lasting.",
-      image: "src/assets/LFP6.jpg",
+      image: "/assets/LFP6.jpg",
       features: ["Standing Signs", "Correx Signs", "ABS Signs", "Vinyl Signs"]
     },
     {
@@ -139,7 +139,7 @@ function Products() {
       title: "Window Graphics",
       description:
         "Transform your storefront with stunning window graphics and decals.",
-      image: "src/assets/LFP10.jpg",
+      image: "/assets/LFP10.jpg",
       features: ["Window Decals", "Frosted Glass Effects", "Custom Graphics", "Branding"]
     },
     {
@@ -148,7 +148,7 @@ function Products() {
       title: "Vehicle Branding",
       description:
         "Turn your vehicle into a mobile billboard with professional vehicle wraps and graphics.",
-      image: "src/assets/LFP11.jpg",
+      image: "/assets/LFP11.jpg",
       features: ["Full Wraps", "Partial Wraps", "Decals", "Fleet Graphics"]
     }
   ];
