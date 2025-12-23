@@ -3,10 +3,10 @@ function Promotional_Printing() {
     // Variables
     // Array or list to hold the different logos stored as svg files
     const categories = [
-        <img src='src/assets/PP1.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/PP2.png' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/PP3.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/PP4.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/PP1.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/PP2.png' className="inline w-24 md:w-40"/>,
+        <img src='/assets/PP3.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/PP4.jpg' className="inline w-24 md:w-40"/>,
         <img src='src/assets/PP5.jpg' className="inline w-24 md:w-40"/>,
         <img src='src/assets/PP6.jpg' className="inline w-24 md:w-40"/>,
         <img src='src/assets/PP7.jpg' className="inline w-24 md:w-40"/>,

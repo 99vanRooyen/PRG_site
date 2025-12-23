@@ -5,8 +5,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 import useScrollReveal from "../hooks/useScrollReveal";
 
-// ✅ Import background image so Vite bundles it correctly (works on Netlify)
-import homeBg from "../assets/Home-Bg.jpg"; // make sure this matches your actual filename + extension + casing
+// ✅ Public asset path (served as-is in production)
+const homeBg = "/assets/Home-Bg.jpg"; // make sure the file exists at: public/assets/Home-Bg.jpg
 
 function Services() {
   useScrollReveal();

@@ -3,16 +3,16 @@ function Large_Format_Printing() {
 
     // Array or list to hold the different logos stored as svg files
     const categories = [
-        <img src='src/assets/LFP1.png' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/LFP2.png' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/LFP3.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP1.png' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP2.png' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP3.jpg' className="inline w-24 md:w-40"/>,
         <img src='src/assets/LFP4.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/LFP5.png' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/LFP6.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP5.png' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP6.jpg' className="inline w-24 md:w-40"/>,
         <img src='src/assets/LFP7.jpg' className="inline w-24 md:w-40"/>,
         <img src='src/assets/LFP8.jpg' className="inline w-24 md:w-40"/>,
         <img src='src/assets/LFP9.jpg' className="inline w-24 md:w-40"/>,
-        <img src='src/assets/LFP10.jpg' className="inline w-24 md:w-40"/>,
+        <img src='/assets/LFP10.jpg' className="inline w-24 md:w-40"/>,
     ]
 
     // Populating the array with the images of the logos
