@@ -34,7 +34,7 @@ function Sublimation_Printing() {
                     and promotional items.
                 </p>
                 <br />
-                <img data-reveal data-delay="120ms" src="src/assets/Sublimation_Printing.jpg" alt="Sublimation printing" className="w-[70%] h-[500px] object-cover rounded-lg shadow-md" />
+                <img data-reveal data-delay="120ms" src="/assets/Sublimation_Printing.jpg" alt="Sublimation printing" className="w-[70%] h-[500px] object-cover rounded-lg shadow-md" />
                 <br />
                 <div data-reveal data-delay="200ms" className="border-[#545f2c] border-t-2 border-b-2 py-2 w-full">
                     {/* Marquee behaviour */}
