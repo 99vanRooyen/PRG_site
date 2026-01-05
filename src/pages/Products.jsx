@@ -16,7 +16,7 @@ function Products() {
       title: "Banners",
       description:
         "Bold, high-quality visuals on a bigger scale. Perfect for outdoor and indoor promotional banners.",
-      image: "/assets/LFP1.png",
+      image: "/assets/banner11.png",
       features: ["PVC Banners", "Mesh Banners", "Outdoor Banners", "Indoor Banners"]
     },
     {
@@ -34,17 +34,17 @@ function Products() {
       title: "Billboards",
       description:
         "Super-sized advertising for maximum visibility on roadsides, sites and large outdoor spaces.",
-      image: "/assets/LFP3.jpg",
+      image: "/assets/BB1.png",
       features: ["Roadside Boards", "Construction Boards", "Large Outdoor Panels", "Building Wraps"]
     },
     {
       id: "lfp-vehicle-wraps",
       category: "LARGE FORMAT PRINTING",
-      title: "Vehicle Wraps",
+      title: "Screen Printing",
       description:
-        "Turn your vehicle into a mobile billboard with professional full and partial wraps.",
-      image: "/assets/LFP5.png",
-      features: ["Full Wraps", "Partial Wraps", "Fleet Branding", "Vehicle Decals"]
+        "High quality printing for apparel and branded items. Perfect for T-shirts, hoodies, workwear, uniforms and bulk orders.",
+      image: "/assets/SCC1.png",
+      features: ["Bags", "Stationary", "Plastic/ Glass Bottles", "Mugs/ Glasses", "Hats/ Caps", "Clothing"]
     },
 
     // SUBLIMATION PRINTING – individual items
@@ -54,7 +54,7 @@ function Products() {
       title: "T-Shirts",
       description:
         "Vibrant, durable prints that become part of the fabric – perfect for custom apparel.",
-      image: "/assets/SP1.jpg",
+      image: "/assets/SP2.jpg",
       features: ["Corporate Wear", "Sportswear", "Event Shirts", "Branded Uniforms"]
     },
     {
@@ -63,18 +63,10 @@ function Products() {
       title: "Mugs",
       description:
         "Full-colour custom mugs that keep your brand in customers' hands every day.",
-      image: "/assets/SP2.jpg",
+      image: "/assets/SP1.jpg",
       features: ["Photo Mugs", "Corporate Gifts", "Promotional Giveaways", "Personalised Sets"]
     },
-    {
-      id: "sub-phone-cases",
-      category: "SUBLIMATION PRINTING",
-      title: "Phone Cases",
-      description:
-        "Protective phone covers with edge-to-edge sublimated graphics.",
-      image: "/assets/SP3.jpg",
-      features: ["Full-Colour Prints", "Branded Cases", "Event Merch", "Custom Designs"]
-    },
+    
     {
       id: "sub-custom-items",
       category: "SUBLIMATION PRINTING",
@@ -139,7 +131,7 @@ function Products() {
       title: "Window Graphics",
       description:
         "Transform your storefront with stunning window graphics and decals.",
-      image: "/assets/LFP10.jpg",
+      image: "/assets/Large_Format_Printing.png",
       features: ["Window Decals", "Frosted Glass Effects", "Custom Graphics", "Branding"]
     },
     {
@@ -148,7 +140,7 @@ function Products() {
       title: "Vehicle Branding",
       description:
         "Turn your vehicle into a mobile billboard with professional vehicle wraps and graphics.",
-      image: "/assets/LFP11.jpg",
+      image: "/assets/LFP1.png",
       features: ["Full Wraps", "Partial Wraps", "Decals", "Fleet Graphics"]
     }
   ];
