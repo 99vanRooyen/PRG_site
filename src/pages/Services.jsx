@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 import useScrollReveal from "../hooks/useScrollReveal";
 
 // ✅ Vite: import images from src/assets
-import homeBg from "../assets/home-bg.jpg";
+import homeBg from "../assets/Home-Bg.jpg";
 
 function Services() {
   useScrollReveal();
