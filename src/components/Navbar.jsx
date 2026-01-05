@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <>
       {/* White navbar */}
-      <nav className="w-full bg-white text-black shadow-md p-3 lg:text-[1.1em]">
+      <nav className="w-full bg-white text-black shadow-md px-3 py-2">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-24 flex items-center justify-between">
 
           {/* Mobile: Logo */}
@@ -27,14 +27,14 @@ function Navbar() {
             <img
               src="/assets/printrebelgraphix_logo.svg"
               alt="PrintRebel Graphix Logo"
-              className="h-14 w-auto"
+              className="h-16 w-auto"  // bigger without affecting navbar height
             />
           </div>
 
           {/* Mobile: Menu button */}
           <div className="flex md:hidden items-center">
             <button
-              className="p-2 rounded border text-[#545f2c] border-[#545f2c] hover:bg-[#9fb658] hover:text-black transition"
+              className="px-3 py-2 rounded border text-[#545f2c] border-[#545f2c] hover:bg-[#9fb658] hover:text-black transition text-base font-semibold"
               onClick={() => setOpen((o) => !o)}
             >
               Menu
@@ -42,16 +42,16 @@ function Navbar() {
           </div>
 
           {/* Desktop layout */}
-          <div className="hidden md:flex w-full items-center justify-center gap-x-20">
+          <div className="hidden md:flex w-full items-center justify-center gap-x-16">
             {/* Left links */}
-            <ul className="flex items-center gap-10">
-              <li className="font-bold hover:text-[#9fb658]">
+            <ul className="flex items-center gap-10 text-lg lg:text-xl leading-none">
+              <li className="font-extrabold hover:text-[#9fb658] transition">
                 <Link to="/">Home</Link>
               </li>
-              <li className="font-bold hover:text-[#9fb658]">
+              <li className="font-extrabold hover:text-[#9fb658] transition">
                 <Link to="/about">About</Link>
               </li>
-              <li className="font-bold hover:text-[#9fb658]">
+              <li className="font-extrabold hover:text-[#9fb658] transition">
                 <Link to="/blog">Blog</Link>
               </li>
             </ul>
@@ -61,42 +61,42 @@ function Navbar() {
               <img
                 src="/assets/printrebelgraphix_logo.svg"
                 alt="PrintRebel Graphix Logo"
-                className="w-52 h-auto"
+                className="w-60 lg:w-64 h-auto" // bigger logo
               />
             </div>
 
             {/* Right links */}
-            <ul className="flex items-center gap-10">
-              <li className="font-bold hover:text-[#9fb658]">
+            <ul className="flex items-center gap-10 text-lg lg:text-xl leading-none">
+              <li className="font-extrabold hover:text-[#9fb658] transition">
                 <Link to="/services">Services</Link>
               </li>
-              <li className="font-bold hover:text-[#9fb658]">
+              <li className="font-extrabold hover:text-[#9fb658] transition">
                 <Link to="/products">Products</Link>
               </li>
-              <li className="font-bold hover:text-[#9fb658]">
+              <li className="font-extrabold hover:text-[#9fb658] transition">
                 <Link to="/contact">Contact</Link>
               </li>
 
-              <li className="flex flex-col items-center ml-2">
+              <li className="flex flex-col items-center ml-2 leading-none">
                 {isAdminLoggedIn ? (
                   <>
                     <Link
                       to="/admin"
-                      className="flex items-center gap-2 font-bold text-[#545f2c] hover:text-[#9fb658] transition"
+                      className="flex items-center gap-2 font-extrabold text-[#545f2c] hover:text-[#9fb658] transition"
                     >
-                      <FaCog className="text-xl" />
-                      <span>Admin</span>
+                      <FaCog className="text-2xl" />
+                      <span className="text-lg lg:text-xl">Admin</span>
                     </Link>
                     <button
                       onClick={handleSignOut}
-                      className="mt-1 bg-[#545f2c] hover:bg-[#9fb658] hover:text-black text-white px-3 py-1 rounded transition"
+                      className="mt-2 bg-[#545f2c] hover:bg-[#9fb658] hover:text-black text-white px-4 py-2 rounded transition text-base font-semibold leading-none"
                     >
                       Sign Out
                     </button>
                   </>
                 ) : (
                   <Link to="/login">
-                    <button className="bg-[#545f2c] hover:bg-[#9fb658] hover:text-black text-white px-4 py-1 rounded transition">
+                    <button className="bg-[#545f2c] hover:bg-[#9fb658] hover:text-black text-white px-5 py-2 rounded transition text-base font-semibold leading-none">
                       Login
                     </button>
                   </Link>
@@ -112,29 +112,29 @@ function Navbar() {
             open ? "block" : "hidden"
           } md:hidden px-4 pb-4 bg-white border-t`}
         >
-          <ul className="flex flex-col gap-4 justify-center items-center">
-            <li className="font-bold hover:text-[#9fb658]">
+          <ul className="flex flex-col gap-4 justify-center items-center text-lg">
+            <li className="font-extrabold hover:text-[#9fb658] transition">
               <Link to="/">Home</Link>
             </li>
-            <li className="font-bold hover:text-[#9fb658]">
+            <li className="font-extrabold hover:text-[#9fb658] transition">
               <Link to="/about">About</Link>
             </li>
-            <li className="font-bold hover:text-[#9fb658]">
+            <li className="font-extrabold hover:text-[#9fb658] transition">
               <Link to="/blog">Blog</Link>
             </li>
-            <li className="font-bold hover:text-[#9fb658]">
+            <li className="font-extrabold hover:text-[#9fb658] transition">
               <Link to="/services">Services</Link>
             </li>
-            <li className="font-bold hover:text-[#9fb658]">
+            <li className="font-extrabold hover:text-[#9fb658] transition">
               <Link to="/products">Products</Link>
             </li>
-            <li className="font-bold hover:text-[#9fb658]">
+            <li className="font-extrabold hover:text-[#9fb658] transition">
               <Link to="/contact">Contact</Link>
             </li>
 
             <li>
               <Link to="/login">
-                <button className="bg-[#545f2c] hover:bg-[#9fb658] hover:text-black text-white px-5 py-2 rounded transition">
+                <button className="bg-[#545f2c] hover:bg-[#9fb658] hover:text-black text-white px-6 py-2 rounded transition text-base font-semibold leading-none">
                   Login
                 </button>
               </Link>

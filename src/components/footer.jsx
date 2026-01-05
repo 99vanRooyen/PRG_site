@@ -1,65 +1,144 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useState } from 'react';
- 
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube,
+} from 'react-icons/fa'
+import { FaTiktok } from 'react-icons/fa6'
 
-export default function Footer ()  {
-  const [text, setText] = useState('');
-
-  const handleChange = (event) => {
-    setText(event.target.value);
-  };
+export default function Footer() {
+  const [text, setText] = useState('')
 
   return (
-    // Parent container for the footer
-    <div className="w-full">
-      <br/>
-      
-      <div className="flex justify-center items-center flex-col text-black text-[1em] md:text-2xl">
+    <footer className="w-full border-t border-[#9fb658]/40 mt-10">
 
-        {/* In this  section the user can subscribe to get notifications about any new with the business and it will appear in their email */}
-        <div className="flex flex-row justify-center py-5">
-          <input type="text" value={text} onChange={handleChange} className="bg-[#ffffff8f] border-2 border-[#545f2c] w-50 md:w-100"/>
-          <button className="bg-[#9fb658] hover:bg-[#545f2c] hover:text-white text-black border-2 border-l-0 border-[#545f2c]">
+      {/* Newsletter / CTA section */}
+      <div className="flex flex-col items-center text-black text-base md:text-lg py-10 gap-4">
+
+        <div className="flex">
+          <input
+            type="email"
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            placeholder="Enter your email"
+            className="bg-white/70 border-2 border-[#545f2c] px-4 py-2 w-64 md:w-96 focus:outline-none"
+          />
+          <button className="bg-[#9fb658] hover:bg-[#545f2c] hover:text-white text-black border-2 border-l-0 border-[#545f2c] px-6 transition font-semibold">
             SUBSCRIBE
           </button>
         </div>
-        
-        <p className="py-3 text-center"><b>for more information please contact us today</b></p>
 
-        {/* If the user has any questions they can contact the business and the button will go their contact page where their information is */}    
-        <button className="bg-[#9fb658] hover:bg-[#545f2c] hover:text-white text-black text-2xl font-semibold rounded-2xl shadow-lg transition px-2">
+        <p className="font-semibold text-center">
+          For more information please contact us today
+        </p>
+
+        <Link to="/contact">
+          <button className="bg-[#9fb658] hover:bg-[#545f2c] hover:text-white text-black font-semibold rounded-full shadow-lg transition px-6 py-2">
             Contact Us
-        </button>
-      </div>
-      
-      <br/>
-
-      {/* Container to hold the business's info and nav links */}
-      <div className="flex flex-col justify-start items-start text-black w-full py-4">
-        <h1 className="font-bold text-2xl">Location</h1>
-        <p className="md:text-[1.2em] lg:text-[1em]">Meyerton</p>
-        <p className="md:text-[1.2em] lg:text-[1em]">Gauteng, South Africa</p>
-
-        <h1 className="font-bold text-2xl mt-4">Contact</h1>
-        <p className="md:text-[1.2em] lg:text-[1em]">printrebelgraphix@gmail.com</p>
-        <p className="md:text-[1.2em] lg:text-[1em]">0747896913</p>
-
-        <h1 className="font-bold text-2xl mt-4">Trading Hours</h1>
-        <p className="md:text-[1.2em] lg:text-[1em]">Mon to Fri</p>
-        <p className="md:text-[1.2em] lg:text-[1em]">8AM to 6PM</p>
-
-        <h1 className="font-bold text-2xl mt-4">Menu</h1>
-        <ul className="">
-          <li className="hover:text-[#9fb658] hover:underline"><Link to="/">Home</Link></li>
-          <li className="hover:text-[#9fb658] hover:underline"><Link to="/about">About</Link></li>
-          <li className="hover:text-[#9fb658] hover:underline"><Link to="/blog">Blog</Link></li>
-          <li className="hover:text-[#9fb658] hover:underline"><Link to="/services">Services</Link></li>
-        </ul>
+          </button>
+        </Link>
       </div>
 
-    </div>
+      {/* Footer main content */}
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-6 md:px-16 py-10 text-black">
+
+        {/* Location */}
+        <div>
+          <h2 className="font-bold text-xl mb-2">Location</h2>
+          <p>Meyerton</p>
+          <p>Gauteng, South Africa</p>
+        </div>
+
+        {/* Contact */}
+        <div>
+          <h2 className="font-bold text-xl mb-2">Contact</h2>
+          <p>printrebelgraphix@gmail.com</p>
+          <p>074 789 6913</p>
+        </div>
+
+        {/* Trading Hours */}
+        <div>
+          <h2 className="font-bold text-xl mb-2">Trading Hours</h2>
+          <p>Mon – Fri</p>
+          <p>8AM – 6PM</p>
+        </div>
+
+        {/* Menu */}
+        <div>
+          <h2 className="font-bold text-xl mb-2">Menu</h2>
+          <ul className="space-y-1">
+            <li className="hover:text-[#9fb658] transition">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="hover:text-[#9fb658] transition">
+              <Link to="/about">About</Link>
+            </li>
+            <li className="hover:text-[#9fb658] transition">
+              <Link to="/blog">Blog</Link>
+            </li>
+            <li className="hover:text-[#9fb658] transition">
+              <Link to="/services">Services</Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Social media bar */}
+      <div className="flex justify-center items-center gap-6 pb-8">
+
+        <a
+          href="https://www.facebook.com/profile.php?id=61574910007705"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-2xl hover:text-[#9fb658] transition"
+        >
+          <FaFacebookF />
+        </a>
+
+        <a
+          href="https://www.instagram.com/printrebelgraphix?igsh=MThna3F5MGs5bnBrMg=="
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-2xl hover:text-[#9fb658] transition"
+        >
+          <FaInstagram />
+        </a>
+
+        <a
+          href="tiktok.com/@printrebelgraphix"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-2xl hover:text-[#9fb658] transition"
+        >
+          <FaTiktok />
+        </a>
+
+        <a
+          href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-2xl hover:text-[#9fb658] transition"
+        >
+          <FaLinkedinIn />
+        </a>
+
+        <a
+          href="https://www.youtube.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-2xl hover:text-[#9fb658] transition"
+        >
+          <FaYoutube />
+        </a>
+      </div>
+
+      {/* Copyright */}
+      <div className="text-center text-sm text-black/70 pb-4">
+        © {new Date().getFullYear()} PrintRebel Graphix. All rights reserved.
+      </div>
+
+    </footer>
   )
 }
-
-
