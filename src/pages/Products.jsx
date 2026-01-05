@@ -54,7 +54,7 @@ function Products() {
       title: "T-Shirts",
       description:
         "Vibrant, durable prints that become part of the fabric – perfect for custom apparel.",
-      image: "/assets/SP2.jpg",
+      image: "/assets/Shirts.png",
       features: ["Corporate Wear", "Sportswear", "Event Shirts", "Branded Uniforms"]
     },
     {
@@ -84,7 +84,7 @@ function Products() {
       title: "Business Cards",
       description:
         "Premium business cards that make a strong first impression.",
-      image: "/assets/PP1.jpg",
+      image: "/assets/PP3.jpg",
       features: ["Single & Double-Sided", "Matt & Gloss Finishes", "Spot UV", "Custom Shapes"]
     },
     {
@@ -93,7 +93,7 @@ function Products() {
       title: "Flyers",
       description:
         "Cost-effective flyers for handouts, inserts and large-volume campaigns.",
-      image: "/assets/PP2.png",
+      image: "/assets/Flyer.png",
       features: ["A5 / A6", "Full Colour", "Short-Run & Bulk", "Event Handouts"]
     },
     {
@@ -102,7 +102,7 @@ function Products() {
       title: "Brochures",
       description:
         "Multi-page brochures to showcase your products and services in detail.",
-      image: "/assets/PP3.jpg",
+      image: "/assets/PP2.png",
       features: ["Bi-Fold & Tri-Fold", "Booklets", "Product Catalogues", "Company Profiles"]
     },
     {
