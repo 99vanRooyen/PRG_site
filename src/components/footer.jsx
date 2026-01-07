@@ -117,7 +117,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
+          href="https://www.linkedin.com/in/jason-mcgregor-bb6277396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           target="_blank"
           rel="noopener noreferrer"
           className="text-2xl hover:text-[#9fb658] transition"

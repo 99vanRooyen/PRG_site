@@ -133,7 +133,7 @@ function Contact() {
               <a href="https://www.instagram.com/printrebelgraphix?igsh=MThna3F5MGs5bnBrMg==" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Instagram</a>
               <a href="tiktok.com/@printrebelgraphix" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Tiktok</a>
               <a href="https://m.youtube.com/channel/UCQjDG9zLJNbYWEP9eraTO-Q/videos" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">YouTube</a>
-              <a href="https://m.youtube.com/channel/UCQjDG9zLJNbYWEP9eraTO-Q/videos" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Linkedin</a>
+              <a href="https://www.linkedin.com/in/jason-mcgregor-bb6277396?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Linkedin</a>
               </div>
           </div>
 
