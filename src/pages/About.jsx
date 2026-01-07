@@ -1,26 +1,35 @@
-import AboutUs from "../components/aboutUs"
-import Navbar from "../components/Navbar"
-import Footer from "../components/footer"
+import AboutUs from "../components/aboutUs";
+import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 
 function About() {
-
-  // Variables
-
   return (
     <>
-      {/* Parent container to hold all about us page components */}
-      <div className="flex flex-col items-start justify-start bg-[url('./assets/Home-Bg.jpg')] bg-no-repeat bg-center text-white">
-        {/* Navbar component */}
+      {/* Full-screen background wrapper */}
+      <div
+        className="
+          min-h-screen
+          w-full
+          flex
+          flex-col
+          bg-[url('./assets/Home-Bg.jpg')]
+          bg-cover
+          bg-center
+          bg-no-repeat
+          text-white
+        "
+      >
+        {/* Navbar */}
         <Navbar />
 
-        {/* Main About Us component */}
-        <AboutUs />   
+        {/* Main content */}
+        <AboutUs />
 
-        {/* Footer component */}
-        <Footer />   
-      </div> 
-    </> 
-  )
+        {/* Footer */}
+        <Footer />
+      </div>
+    </>
+  );
 }
 
-export default About
+export default About;

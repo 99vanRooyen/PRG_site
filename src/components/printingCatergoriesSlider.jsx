@@ -8,6 +8,7 @@ const PrintingCategoriesSlider = () => {
     "PROMOTIONAL PRINTING",
     "SIGNAGE PRINTING",
     "SUBLIMATED APPAREL",
+    "SCREEN PRINTING",
   ]
 
   // Filling the array with the categories defined

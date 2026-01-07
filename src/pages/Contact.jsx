@@ -37,10 +37,10 @@ function Contact() {
               </p>
               <p className="relative group">
               <a
-                  href="mailto:printrebelgraphix@gmail.com"
+                  href="mailto:jason@printrebelgraphix.com"
                   className="underline hover:text-[#545f2c] transition"
               >
-                  printrebelgraphix@gmail.com
+                  jason@printrebelgraphix.com
               </a>
               </p>
               <p className="pt-4 text-sm">Based in South Africa – Serving clients worldwide</p>
@@ -129,9 +129,9 @@ function Contact() {
               <h2 className="text-xl font-semibold">Other Ways to Connect</h2>
               <p>Follow us on social media for updates & design showcases:</p>
               <div className="flex gap-5 justify-center">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Facebook</a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Instagram</a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Twitter</a>
+              <a href="https://www.facebook.com/profile.php?id=61574910007705" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Facebook</a>
+              <a href="https://www.instagram.com/printrebelgraphix?igsh=MThna3F5MGs5bnBrMg==" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Instagram</a>
+              <a href="tiktok.com/@printrebelgraphix" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Tiktok</a>
               </div>
           </div>
 

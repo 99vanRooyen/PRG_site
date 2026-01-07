@@ -54,7 +54,8 @@ export default function Footer() {
         {/* Contact */}
         <div>
           <h2 className="font-bold text-xl mb-2">Contact</h2>
-          <p>printrebelgraphix@gmail.com</p>
+          <p>jason@printrebelgraphix.com</p>
+          <p>admin@printrebelgraphix.com</p>
           <p>074 789 6913</p>
         </div>
 

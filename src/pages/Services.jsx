@@ -1,12 +1,11 @@
 import Large_Format_Printing from "../components/large_Format_Printing";
 import Sublimation_Printing from "../components/sublimation_Printing";
 import Promotional_Printing from "../components/promotional_Printing";
-import Screen_Printing from "../components/Screen_Printing"; // ✅ NEW
+import Screen_Printing from "../components/Screen_Printing";
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 import useScrollReveal from "../hooks/useScrollReveal";
 
-// ✅ Vite: import images from src/assets
 import homeBg from "../assets/Home-Bg.jpg";
 
 function Services() {
@@ -25,9 +24,7 @@ function Services() {
         </span>
       </h1>
 
-      <div className="flex flex-col items-center px-4 md:px-10">
-
-        
+      <div className="flex flex-col items-center px-4 md:px-10 w-full">
         <Screen_Printing />
         <div className="h-8" />
 
@@ -37,7 +34,7 @@ function Services() {
         <Promotional_Printing />
         <div className="h-8" />
 
-        <Large_Format_Printing /> {/* ✅ NEW BLOCK */}
+        <Large_Format_Printing />
       </div>
 
       <Footer />

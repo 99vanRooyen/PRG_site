@@ -9,6 +9,9 @@ const LogoSlider = () => {
     <img src='/assets/Gorilla_chemicals.svg' className="inline w-24 md:w-40"/>,
     <img src='/assets/bp.svg' className="inline w-24 md:w-40"/>,
     <img src='/assets/First_steps.svg' className="inline w-24 md:w-40"/>,
+    <img src='/assets/braai_wagon.svg' className="inline w-24 md:w-40"/>,
+    <img src='/assets/dj_arno.svg' className="inline w-24 md:w-40"/>,
+    <img src='/assets/telmark.svg' className="inline w-24 md:w-40"/>,
   ]
 
   // Populating the array with the images of the logos

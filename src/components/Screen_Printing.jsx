@@ -3,24 +3,24 @@ import { FaPrint } from "react-icons/fa";
 function Screen_Printing() {
   // Array or list to hold the different logos stored as image files
   const categories = [
-    <img src="/assets/SC1.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 1" />,
-    <img src="/assets/SC2.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 2" />,
-    <img src="/assets/SC3.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 3" />,
-    <img src="/assets/SC4.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 4" />,
-    <img src="/assets/SC5.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 5" />,
-    <img src="/assets/SC6.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 6" />,
-    <img src="/assets/SC7.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 7" />,
-    <img src="/assets/SC8.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 8" />,
-    <img src="/assets/SC9.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 1" />,
-    <img src="/assets/SC10.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 2" />,
-    <img src="/assets/SC11.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 3" />,
-    <img src="/assets/SC12.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 4" />,
-    <img src="/assets/SC13.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 5" />,
-    <img src="/assets/SC14.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 6" />,
-    <img src="/assets/SC15.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 7" />,
-    <img src="/assets/SC16.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 8" />,
-    <img src="/assets/SC17.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 7" />,
-    <img src="/assets/SC18.jpeg" className="inline w-24 md:w-40" alt="Screen Printing 8" />,
+    <img src="/assets/SC1.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 1" />,
+    <img src="/assets/SC2.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 2" />,
+    <img src="/assets/SC3.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 3" />,
+    <img src="/assets/SC4.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 4" />,
+    <img src="/assets/SC5.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 5" />,
+    <img src="/assets/SC6.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 6" />,
+    <img src="/assets/SC7.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 7" />,
+    <img src="/assets/SC8.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 8" />,
+    <img src="/assets/SC9.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 9" />,
+    <img src="/assets/SC10.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 10" />,
+    <img src="/assets/SC11.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 11" />,
+    <img src="/assets/SC12.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 12" />,
+    <img src="/assets/SC13.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 13" />,
+    <img src="/assets/SC14.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 14" />,
+    <img src="/assets/SC15.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 15" />,
+    <img src="/assets/SC16.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 16" />,
+    <img src="/assets/SC17.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 17" />,
+    <img src="/assets/SC18.jpeg" className="inline w-24 md:w-40 h-auto object-contain" alt="Screen Printing 18" />,
   ];
 
   // Populating the array with the images of the logos
@@ -54,12 +54,13 @@ function Screen_Printing() {
         </p>
         <br />
 
+        {/* ✅ FIXED IMAGE: no stretching on mobile, desktop unchanged */}
         <img
           data-reveal
           data-delay="120ms"
           src="/assets/SCC1.png"
           alt="Screen Printing"
-          className="w-[70%] h-100 rounded-lg shadow-md"
+          className="w-full max-w-md md:max-w-lg h-48 sm:h-56 md:h-72 object-contain md:object-cover rounded-lg shadow-md"
         />
         <br />
 
