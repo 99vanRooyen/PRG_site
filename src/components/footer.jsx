@@ -1,22 +1,26 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
   FaYoutube,
-} from 'react-icons/fa'
-import { FaTiktok } from 'react-icons/fa6'
+} from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6";
 
 export default function Footer() {
-  const [text, setText] = useState('')
+  const [text, setText] = useState("");
 
   return (
-    <footer className="w-full border-t border-[#9fb658]/40 mt-10">
-
+    <footer
+      className="
+        w-full mt-10
+        border-t border-[#9fb658]/40
+        backdrop-blur-md bg-white/75
+      "
+    >
       {/* Newsletter / CTA section */}
       <div className="flex flex-col items-center text-black text-base md:text-lg py-10 gap-4">
-
         <div className="flex">
           <input
             type="email"
@@ -30,7 +34,7 @@ export default function Footer() {
           </button>
         </div>
 
-        <p className="font-semibold text-center">
+        <p className="font-semibold text-center drop-shadow-sm">
           For more information please contact us today
         </p>
 
@@ -42,8 +46,7 @@ export default function Footer() {
       </div>
 
       {/* Footer main content */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-6 md:px-16 py-10 text-black">
-
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-6 md:px-16 py-10 text-black drop-shadow-sm">
         {/* Location */}
         <div>
           <h2 className="font-bold text-xl mb-2">Location</h2>
@@ -87,13 +90,13 @@ export default function Footer() {
       </div>
 
       {/* Social media bar */}
-      <div className="flex justify-center items-center gap-6 pb-8">
-
+      <div className="flex justify-center items-center gap-6 pb-8 text-black">
         <a
           href="https://www.facebook.com/profile.php?id=61574910007705"
           target="_blank"
           rel="noopener noreferrer"
           className="text-2xl hover:text-[#9fb658] transition"
+          aria-label="Facebook"
         >
           <FaFacebookF />
         </a>
@@ -103,15 +106,17 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           className="text-2xl hover:text-[#9fb658] transition"
+          aria-label="Instagram"
         >
           <FaInstagram />
         </a>
 
         <a
-          href="tiktok.com/@printrebelgraphix"
+          href="https://www.tiktok.com/@printrebelgraphix?_r=1&_t=ZS-92sAhYQehAF"
           target="_blank"
           rel="noopener noreferrer"
           className="text-2xl hover:text-[#9fb658] transition"
+          aria-label="TikTok"
         >
           <FaTiktok />
         </a>
@@ -121,6 +126,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           className="text-2xl hover:text-[#9fb658] transition"
+          aria-label="LinkedIn"
         >
           <FaLinkedinIn />
         </a>
@@ -130,16 +136,16 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
           className="text-2xl hover:text-[#9fb658] transition"
+          aria-label="YouTube"
         >
           <FaYoutube />
         </a>
       </div>
 
       {/* Copyright */}
-      <div className="text-center text-sm text-black/70 pb-4">
+      <div className="text-center text-sm text-black/70 pb-4 drop-shadow-sm">
         © {new Date().getFullYear()} PrintRebel Graphix. All rights reserved.
       </div>
-
     </footer>
-  )
+  );
 }
