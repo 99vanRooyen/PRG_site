@@ -126,7 +126,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://www.youtube.com/"
+          href="https://m.youtube.com/channel/UCQjDG9zLJNbYWEP9eraTO-Q/videos"
           target="_blank"
           rel="noopener noreferrer"
           className="text-2xl hover:text-[#9fb658] transition"

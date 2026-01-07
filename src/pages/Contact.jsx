@@ -132,6 +132,8 @@ function Contact() {
               <a href="https://www.facebook.com/profile.php?id=61574910007705" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Facebook</a>
               <a href="https://www.instagram.com/printrebelgraphix?igsh=MThna3F5MGs5bnBrMg==" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Instagram</a>
               <a href="tiktok.com/@printrebelgraphix" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Tiktok</a>
+              <a href="https://m.youtube.com/channel/UCQjDG9zLJNbYWEP9eraTO-Q/videos" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">YouTube</a>
+              <a href="https://m.youtube.com/channel/UCQjDG9zLJNbYWEP9eraTO-Q/videos" target="_blank" rel="noopener noreferrer" className="hover:text-[#545f2c] transition">Linkedin</a>
               </div>
           </div>
 
