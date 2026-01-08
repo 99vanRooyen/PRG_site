@@ -11,8 +11,8 @@ function Login() {
   const navigate = useNavigate();
 
   // Hardcoded credentials (temporary)
-  const validEmail = "admin@printrebelgraphix.com";
-  const validPassword = "secure123";
+  const validEmail = "jason@printrebelgraphix.com";
+  const validPassword = "J@5oN.3M@1L";
 
   // Handling the submit button's functionality
   const handleSubmit = (e) => {
