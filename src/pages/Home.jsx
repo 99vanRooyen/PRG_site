@@ -9,7 +9,7 @@ import Footer from "../components/footer.jsx";
 import useScrollReveal from "../hooks/useScrollReveal";
 
 // ✅ Import from src/assets (Vite-safe)
-import homeBg from "../assets/Home-Bg.jpg";
+import homeBg from "../assets/Home-Bg.webp";
 
 function Home() {
   useScrollReveal();

@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 import useScrollReveal from "../hooks/useScrollReveal";
 
-import homeBg from "../assets/Home-Bg.jpg";
+import homeBg from "../assets/Home-Bg.webp";
 
 function Services() {
   useScrollReveal();

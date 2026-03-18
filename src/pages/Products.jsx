@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
+import homeBg from "../assets/Home-Bg.webp";
 
 function Products() {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -141,7 +142,6 @@ function Products() {
       const progress = scrollHeight > 0 ? window.scrollY / scrollHeight : 0;
       setScrollProgress(progress);
 
-      // Enter footer zone when close to bottom
       const nearBottom = window.scrollY + window.innerHeight >= doc.scrollHeight - 180;
       setAtFooter(nearBottom);
     };
@@ -161,7 +161,7 @@ function Products() {
     const isUpcoming = scrollProgress < productProgress;
 
     const sectionProgress = (scrollProgress - productProgress) / (1 / totalProducts);
-    const distanceFromCurrent = index - (scrollProgress * totalProducts);
+    const distanceFromCurrent = index - scrollProgress * totalProducts;
 
     let scale, opacity, blur, translateZ, zIndex, translateX, translateY, rotate;
 
@@ -228,12 +228,14 @@ function Products() {
 
   return (
     <>
-      <div className="relative min-h-screen bg-[url('./assets/Home-Bg.jpg')] bg-fixed bg-center text-black overflow-hidden">
+      <div
+        className="relative min-h-screen bg-fixed bg-center bg-cover bg-no-repeat text-black overflow-hidden"
+        style={{ backgroundImage: `url(${homeBg})` }}
+      >
         <div className="fixed top-0 left-0 w-full z-[500]">
           <Navbar />
         </div>
 
-        {/* Fixed center container */}
         <div
           className={`fixed inset-0 flex items-center justify-center pt-32 pb-8 transition-opacity duration-300 ${
             atFooter ? "opacity-0 pointer-events-none" : "opacity-100"
@@ -264,7 +266,9 @@ function Products() {
                         {product.title}
                       </h2>
 
-                      <p className="text-gray-700 leading-relaxed text-sm md:text-base">{product.description}</p>
+                      <p className="text-gray-700 leading-relaxed text-sm md:text-base">
+                        {product.description}
+                      </p>
 
                       {product.features && product.features.length > 0 && (
                         <div className="pt-2">
@@ -296,14 +300,13 @@ function Products() {
           </div>
         </div>
 
-        {/* Scroll spacer */}
         <div style={{ height: `${(products.length - 0.5) * 100}vh` }} />
 
-        {/* ✅ Footer area styled like your screenshot (no beige block) */}
-        <div className="relative z-[500] bg-[url('./assets/Home-Bg.jpg')] bg-fixed bg-center">
-          {/* thin green divider line like reference */}
+        <div
+          className="relative z-[500] bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: `url(${homeBg})` }}
+        >
           <div className="h-[2px] bg-[#9fb658]/70 w-full" />
-
           <Footer />
         </div>
       </div>

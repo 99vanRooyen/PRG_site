@@ -12,7 +12,7 @@ function About() {
           w-full
           flex
           flex-col
-          bg-[url('./assets/Home-Bg.jpg')]
+          bg-[url('./assets/Home-Bg.webp')]
           bg-cover
           bg-center
           bg-no-repeat

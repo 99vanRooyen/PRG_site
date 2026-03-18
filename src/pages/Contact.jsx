@@ -14,7 +14,7 @@ function Contact() {
   return (
       <>
         {/* Parent container with same background as About page */}
-      <div className="flex flex-col items-start justify-start bg-[url('./assets/Home-Bg.jpg')] bg-cover bg-no-repeat bg-center text-white px-1 min-h-screen">
+      <div className="flex flex-col items-start justify-start bg-[url('./assets/Home-Bg.webp')] bg-cover bg-no-repeat bg-center text-white px-1 min-h-screen">
           
           {/* Navbar component */}
           <Navbar />
